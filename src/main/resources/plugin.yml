@@ -1,0 +1,19 @@
+name: VanillaTweaks
+version: '${version}'
+main: de.remadisson.vanillatweaks.VanillaTweaks
+api-version: '1.20'
+authors: [ "remadisson" ]
+website: [ "https://www.remady.me" ]
+commands:
+  tpa:
+    permission: "vt.tpa.there"
+    description: "§e/tpa §7<§bPlayer§7>"
+  tpahere:
+    permission: "vt.tpa.here"
+    description: "§e/tpahere §7<§bPlayer§7>"
+  tpaaccept:
+    permission: "vt.tpa.accept"
+    description: "§e/tpaaccept §7<§bPlayer§7>"
+  tpadecline:
+    permission: "vt.tpa.decline"
+    description: "§e/tpadecline §7<§bPlayer§7>"
