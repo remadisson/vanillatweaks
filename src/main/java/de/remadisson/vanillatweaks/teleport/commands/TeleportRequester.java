@@ -66,7 +66,7 @@ public class TeleportRequester implements CommandExecutor, TabExecutor {
         targetComponent = targetComponent.append(targetAccept).append(Component.text(" oder ", NamedTextColor.YELLOW)).append(targetDecline);
 
         target.sendMessage(targetComponent);
-        player.sendMessage(Component.text(Messages.getPrefix() + "§2Du §ahast §2" + target.getName() + " §aeine Teleportations-Anfrage an §2" + target.getName() + " §agesendet."));
+        player.sendMessage(Component.text(Messages.getPrefix() + "§2Du §ahast §aeine Teleportations-Anfrage an §2" + target.getName() + " §agesendet."));
 
         TeleporterManager.put(player.getUniqueId(), target.getUniqueId(), type);
         return true;
