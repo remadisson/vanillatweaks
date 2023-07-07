@@ -1,5 +1,5 @@
 name: VanillaTweaks
-version: '${version}'
+version: '1.0.0-SNAPSHOT'
 main: de.remadisson.vanillatweaks.VanillaTweaks
 api-version: '1.20'
 authors: [ "remadisson" ]
@@ -17,3 +17,13 @@ commands:
   tpadecline:
     permission: "vt.tpa.decline"
     description: "§e/tpadecline §7<§bPlayer§7>"
+  home:
+    permission: "vt.homes.home"
+    aliases: [ "homes" ]
+    description: "§e/home §7<§bHome§7>"
+  sethome:
+    permission: "vt.homes.sethome"
+    description: "§e/setHome §7<§bName§7>"
+  delhome:
+    permission: "vt.homes.delhome"
+    description: "§e/delhome §7<§bHome§7>"
